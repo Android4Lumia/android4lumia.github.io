@@ -16,4 +16,4 @@ ______________
 
 # Instructions video
 ______________
-<iframe src="https://www.youtube.com/embed/_OW88UTTDug"></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/_OW88UTTDug"></iframe>

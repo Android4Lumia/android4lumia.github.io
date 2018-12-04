@@ -16,7 +16,7 @@ Flashing a modified LittleKernel Bootloader.
 
 **No**. For now, only Lumia 520/1/5/6 and 720 devices are supported. Maybe in the future more devices will be added, but nothing is promised.
 
-### Can i do this in my main phone/is this stable?
+### Can i do this on my main phone/is this stable?
 
 **Don't** do this in your main phone, this isn't 100% stable and not all things are working (like SIM cards).
 
@@ -30,4 +30,4 @@ If you don't made a backup, you can't go back to Windows Phone. Every device bac
 
 ### You damaged my phone!
 
-We warned you! YOU choosed to make these modifications, so don't point the finger at us for messing up your device.
+We warned you! **YOU** choosed to make these modifications, so don't point the finger at us for messing up your device.

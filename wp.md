@@ -3,7 +3,7 @@ layout: other
 ---
 
 # Restore Windows Phone 8 (Windows instructions)
-
+_____________
 ### Thanks to <a href="https://forum.xda-developers.com/member.php?u=7887107">trashmaster76</a> and feherneoh
 
 <a href="https://forum.xda-developers.com/nokia-lumia-520/development/restore-windows-phone-8-installed-t3608223">XDA Thread</a>
@@ -69,7 +69,7 @@ Phone will now show smiley of death, that is normal.
 At this point, you can use Windows Device Recovery Tool to flash a clean Windows Phone or reflash the one from the backup using thor2.
 
 ## How to reflash Windows Phone from the backup
-
+___________________
 **Note:** Instead of thor2 you can flash FFU with Windows Phone Internals or Windows Device Recovery Tool.
 
 thor2 should be at:

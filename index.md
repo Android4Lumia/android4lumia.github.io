@@ -2,8 +2,13 @@
 layout: default
 ---
 
-# Main page.
+# Downloads:
 
-I really need to think what can i put here.
+>**Your warranty is now void.**
+>We are not responsible for bricked devices, dead SD cards, 
+>thermonuclear war, or you getting fired because the alarm app failed. Please
+>do some research if you have any concerns about features included in this ROM
+>before flashing it! YOU are choosing to make these modifications, and if 
+>you point the finger at us for messing up your device, we will laugh at you.
 
-> I have an urge to brush my hair
+### Downloads aren't available at the moment.

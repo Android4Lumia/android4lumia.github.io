@@ -5,3 +5,10 @@ $header-heading-color: #fff !default;
 $header-bg-color: #002171 !default;
 $header-bg-color-secondary: #2196f3 !default;
 @import "{{ site.theme }}";
+.tnb {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #000051;
+  padding: 20px;
+}

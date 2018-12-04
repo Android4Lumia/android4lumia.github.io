@@ -3,6 +3,7 @@ layout: other
 ---
 
 # **FAQ**
+___________________________________________
 
 ### What is Android4Lumia?
 

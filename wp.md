@@ -1,0 +1,94 @@
+---
+layout: other
+---
+
+# Restore Windows Phone 8 (Windows instructions)
+
+### Thanks to <a href="https://forum.xda-developers.com/member.php?u=7887107">trashmaster76</a> and feherneoh
+
+<a href="https://forum.xda-developers.com/nokia-lumia-520/development/restore-windows-phone-8-installed-t3608223">XDA Thread</a>
+
+> DO NOT ask for a backup. If you do not have one, you have to accept to be permanently on Android.
+
+**1)** Download these files and put them in a new folder:
+
+### Downloads aren't available at the moment.
+
+**2)** Copy the backup to that folder. Create another folder inside this one called "**parts**".
+
+**3)** Open CMD in the folder that you created in step 1 and run this command: ```imgman64.exe <backup.img> parts```
+
+(Replace **<backup.img>** with the filename of your backup)
+
+**4)** Now, run these commands:
+
+```
+fastboot boot recovery_unsecure.img
+adb push fame_wp_unlocked.gpt /cache/
+adb shell
+sgdisk --load-backup /cache/fame_wp_unlocked.gpt /dev/block/mmcblk0
+sync
+sync
+reboot
+```
+
+Phone will reboot. ADB should disconnect at this point.
+
+**5)** Now we have to flash every partition that is in the parts folder with this command:
+
+```
+fastboot flash <partition> parts\<partition>.img
+```
+
+Change **<partition>** with one of these (**flash them in this order!):
+
+TZ
+SSD
+RPM
+WINSECAPP
+MODEM_FSG
+MODEM_FS1
+MODEM_FS2
+UEFI_BS_NV
+UEFI_NV
+UEFI_RT_NV
+UEFI_RT_NV_RPMB
+PLAT
+MMOS
+EFIESP
+UEFI
+
+**6)** Reboot the phone with ```fastboot reboot```
+
+Phone will now show smiley of death, that is normal.
+
+At this point, you can use Windows Device Recovery Tool to flash a clean Windows Phone or reflash the one from the backup using thor2.
+
+# How to reflash Windows Phone from the backup
+
+If you don't want to flash a clean Windows Phone, follow these steps:
+
+**Note:** Instead of thor2 you can flash MainOS and Data partition/FFU (with both partitions included) with Windows Phone Internals or Windows Device Recovery Tool.
+
+thor2 should be at:
+
+64 Bits Windows: > C:\Program Files (x86)\Microsoft Care Suite\Windows Device Recovery Tool
+
+32 Bits Windows: > C:\Program Files\Microsoft Care Suite\Windows Device Recovery Tool
+
+**1)** Go to the thor2 folder and open CMD in it.
+
+**2)** Run this command: ```thor2 -mode rnd -bootflashapp```
+
+**3)** Wait for the phone to show the alternative Nokia logo, where the text is not centered vertically and then run these commands:
+
+```
+thor2 -mode uefiflash -partitionname MainOS -partitionimagefile parts\MainOS.img
+thor2 -mode uefiflash -partitionname Data -partitionimagefile parts\Data.img
+```
+
+or just flash your phone's FFU file (download from <a href="https://lumiafirmware.com/">LumiaFirmware</a>) with ```thor2 -mode uefiflash -ffufile <Path-to-FFU> -do_full_nvi_update -do_factory_reset```
+
+**4)** Reboot your phone with ```thor2 -mode rnd -bootnormalmode```
+
+Done! Windows Phone 8 should boot.

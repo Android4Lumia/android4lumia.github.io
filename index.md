@@ -2,4 +2,8 @@
 layout: default
 ---
 
-<a href="https://tbm13.github.io/android4lumia.github.io/FAQ.html" class="btn">FAQ</a>
+# Main page.
+
+I really need to think what can i put here.
+
+> I have an urge to brush my hair

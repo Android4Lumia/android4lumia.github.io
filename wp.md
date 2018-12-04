@@ -68,9 +68,7 @@ Phone will now show smiley of death, that is normal.
 
 At this point, you can use Windows Device Recovery Tool to flash a clean Windows Phone or reflash the one from the backup using thor2.
 
-# How to reflash Windows Phone from the backup
-
-If you don't want to flash a clean Windows Phone, follow these steps:
+## How to reflash Windows Phone from the backup
 
 **Note:** Instead of thor2 you can flash MainOS and Data partition/FFU (with both partitions included) with Windows Phone Internals or Windows Device Recovery Tool.
 
@@ -84,14 +82,8 @@ thor2 should be at:
 
 **2)** Run this command: ```thor2 -mode rnd -bootflashapp```
 
-**3)** Wait for the phone to show the alternative Nokia logo, where the text is not centered vertically and then run these commands:
+**3)** Flash your phone's FFU file (download from <a href="https://lumiafirmware.com/">LumiaFirmware</a>) with:
 
-```
-thor2 -mode uefiflash -partitionname MainOS -partitionimagefile parts\MainOS.img
-thor2 -mode uefiflash -partitionname Data -partitionimagefile parts\Data.img
-```
-
-or just flash your phone's FFU file (download from <a href="https://lumiafirmware.com/">LumiaFirmware</a>) with 
 ```thor2 -mode uefiflash -ffufile <Path-to-FFU> -do_full_nvi_update -do_factory_reset```
 
 **4)** Reboot your phone with ```thor2 -mode rnd -bootnormalmode```

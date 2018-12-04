@@ -8,7 +8,9 @@ layout: other
 
 <a href="https://forum.xda-developers.com/nokia-lumia-520/development/restore-windows-phone-8-installed-t3608223">XDA Thread</a>
 
+
 > DO NOT ask for a backup. If you do not have one, you have to accept to be permanently on Android.
+
 
 **1)** Download these files and put them in a new folder:
 
@@ -16,9 +18,11 @@ layout: other
 
 **2)** Copy the backup to that folder. Create another folder inside this one called "**parts**".
 
-**3)** Open CMD in the folder that you created in step 1 and run this command: ```imgman64.exe <backup.img> parts```
+**3)** Open CMD in the folder that you created in step 1 and run this command: 
 
-(Replace **<backup.img>** with the filename of your backup)
+```imgman64.exe backup.img parts```
+
+(Replace **backup.img** with the filename of your backup)
 
 **4)** Now, run these commands:
 
@@ -37,26 +41,26 @@ Phone will reboot. ADB should disconnect at this point.
 **5)** Now we have to flash every partition that is in the parts folder with this command:
 
 ```
-fastboot flash <partition> parts\<partition>.img
+fastboot flash partition parts\<partition>.img
 ```
 
-Change **<partition>** with one of these (**flash them in this order!):
+Change **partition** with one of these (**flash them in this order!**):
 
-TZ
-SSD
-RPM
-WINSECAPP
-MODEM_FSG
-MODEM_FS1
-MODEM_FS2
-UEFI_BS_NV
-UEFI_NV
-UEFI_RT_NV
-UEFI_RT_NV_RPMB
-PLAT
-MMOS
-EFIESP
-UEFI
+* TZ
+* SSD
+* RPM
+* WINSECAPP
+* MODEM_FSG
+* MODEM_FS1
+* MODEM_FS2
+* UEFI_BS_NV
+* UEFI_NV
+* UEFI_RT_NV
+* UEFI_RT_NV_RPMB
+* PLAT
+* MMOS
+* EFIESP
+* UEFI
 
 **6)** Reboot the phone with ```fastboot reboot```
 
@@ -72,9 +76,9 @@ If you don't want to flash a clean Windows Phone, follow these steps:
 
 thor2 should be at:
 
-64 Bits Windows: > C:\Program Files (x86)\Microsoft Care Suite\Windows Device Recovery Tool
+64 Bits Windows: ```C:\Program Files (x86)\Microsoft Care Suite\Windows Device Recovery Tool```
 
-32 Bits Windows: > C:\Program Files\Microsoft Care Suite\Windows Device Recovery Tool
+32 Bits Windows: ```C:\Program Files\Microsoft Care Suite\Windows Device Recovery Tool```
 
 **1)** Go to the thor2 folder and open CMD in it.
 
@@ -87,7 +91,8 @@ thor2 -mode uefiflash -partitionname MainOS -partitionimagefile parts\MainOS.img
 thor2 -mode uefiflash -partitionname Data -partitionimagefile parts\Data.img
 ```
 
-or just flash your phone's FFU file (download from <a href="https://lumiafirmware.com/">LumiaFirmware</a>) with ```thor2 -mode uefiflash -ffufile <Path-to-FFU> -do_full_nvi_update -do_factory_reset```
+or just flash your phone's FFU file (download from <a href="https://lumiafirmware.com/">LumiaFirmware</a>) with 
+```thor2 -mode uefiflash -ffufile <Path-to-FFU> -do_full_nvi_update -do_factory_reset```
 
 **4)** Reboot your phone with ```thor2 -mode rnd -bootnormalmode```
 

@@ -2,17 +2,10 @@
 layout: default
 ---
 
-# test
+# What is Android4Lumia?
 
-test.
+Android4Lumia is a project to install Android on Lumia devices.
 
-## test 2
+## How is it possible?
 
-**bold** 
-
-### test 3
-
->test
->
->
->ok
+Flashing a modified LittleKernel Bootloader.

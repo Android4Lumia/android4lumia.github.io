@@ -70,7 +70,7 @@ At this point, you can use Windows Device Recovery Tool to flash a clean Windows
 
 ## How to reflash Windows Phone from the backup
 
-**Note:** Instead of thor2 you can flash MainOS and Data partition/FFU (with both partitions included) with Windows Phone Internals or Windows Device Recovery Tool.
+**Note:** Instead of thor2 you can flash FFU with Windows Phone Internals or Windows Device Recovery Tool.
 
 thor2 should be at:
 

@@ -15,7 +15,8 @@ Flashing a modified LittleKernel Bootloader.
 
 ### Are all Lumia devices supported?
 
-**No**. For now, only Lumia 520/1/5/6 and 720 devices are supported. Maybe in the future more devices will be added, but nothing is promised.
+**No**. For now, only Lumia 520, 521, 525, 526, 720, 720T devices are supported. Support is planned for other Snapdragon S4 based Lumias,
+but nothing is promised.
 
 ### Can i do this on my main phone/is this stable?
 

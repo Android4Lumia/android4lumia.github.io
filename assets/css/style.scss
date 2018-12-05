@@ -16,6 +16,24 @@ $header-bg-color-secondary: #2196f3 !default;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  color: #b3c3dd;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
 .pure-material-button-contained { /*Material design buttons by Ben Szabo (https://codepen.io/finnhvman/) - Modified by TBM_13 */
     position: relative;
     display: inline-block;

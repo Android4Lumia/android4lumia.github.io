@@ -20,11 +20,23 @@ but nothing is promised.
 
 ### Can i do this on my main phone/is this stable?
 
-**Don't** do this in your main phone, this isn't 100% stable and not all things are working (like SIM cards).
+**Don't** do this in your main phone, this isn't 100% stable and all things aren't working (like cellular networks, camera, some SD cards, etc).
 
 ### Are non-original touchscreens supported?
 
 **No**. Only original touchscreens are supported. It isn't easy to calibrate other touchscreens.
+
+### In TWRP my touchscreen doesn't works, it vibrates.
+
+That means you don't have an original touchscreen. Go back to Windows Phone.
+
+### Are the WiFi and Bluetooth working?
+
+Yes. WiFi and Bluetooth are working.
+
+### Can i install Google Play Services and Play Store?
+
+Yes, you can. But if you do that, the phone will run very slow. We don't recommend you to do this.
 
 ### I want to go back to Windows Phone but i don't made a backup
 

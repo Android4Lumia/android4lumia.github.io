@@ -24,13 +24,13 @@ but nothing is promised.
 
 ### Are non-original touchscreens supported?
 
-**No**. Only original touchscreens are supported. It isn't easy to calibrate other touchscreens.
+**No**. Only original touchscreens are supported. It isn't easy to calibrate and support other touchscreens.
 
 ### In TWRP my touchscreen doesn't works, it vibrates.
 
 That means you don't have an original touchscreen. Go back to Windows Phone.
 
-### Are the WiFi and Bluetooth working?
+### Are WiFi and Bluetooth working?
 
 Yes. WiFi and Bluetooth are working.
 

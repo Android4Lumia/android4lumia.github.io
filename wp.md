@@ -41,7 +41,7 @@ Phone will reboot. ADB should disconnect at this point.
 **5)** Now we have to flash every partition that is in the parts folder with this command:
 
 ```
-fastboot flash partition parts\<partition>.img
+fastboot flash partition parts\partition.img
 ```
 
 Change **partition** with one of these (**flash them in this order!**):

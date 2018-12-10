@@ -68,7 +68,7 @@ Phone will now show smiley of death, that is normal.
 
 At this point, you can use Windows Device Recovery Tool to flash a clean Windows Phone or reflash the one from the backup using thor2.
 
-## How to reflash Windows Phone from the backup
+## How to flash Windows Phone FFU with thor2
 ___________________
 **Note:** Instead of thor2 you can flash FFU with Windows Phone Internals or Windows Device Recovery Tool.
 

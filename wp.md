@@ -6,7 +6,7 @@ layout: other
 _____________
 ### Thanks to <a href="https://forum.xda-developers.com/member.php?u=7887107">trashmaster76</a> and feherneoh
 
-<a href="https://forum.xda-developers.com/nokia-lumia-520/development/restore-windows-phone-8-installed-t3608223" class="btn2">Go to XDA Thread</a>
+<a href="https://forum.xda-developers.com/nokia-lumia-520/development/restore-windows-phone-8-installed-t3608223" class="btn2-medium">Go to XDA Thread</a>
 
 
 > DO NOT ask for a backup. If you do not have one, you have to accept to be permanently on Android.

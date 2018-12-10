@@ -88,8 +88,6 @@ $header-bg-color-secondary: #2196f3 !default;
 .btn2 {
   display: inline-block;
   margin-bottom: 1rem;
-  padding: 0.4rem 0.7rem;
-  font-size: 0.9rem;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(79, 195, 247, 0.6);
   border-color: rgba(79, 174, 247, 0.6);
@@ -114,6 +112,19 @@ $header-bg-color-secondary: #2196f3 !default;
 
   + .btn2 {
     margin-left: 1rem;
+  }
+  
+  @include large {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.9rem;
+  }
+   @include medium {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.9rem;
+  }
+   @include small {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.9rem;
   }
 }
 

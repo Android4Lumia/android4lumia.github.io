@@ -89,8 +89,8 @@ $header-bg-color-secondary: #2196f3 !default;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(79, 195, 247, 0.3);
-  border-color: rgba(79, 174, 247, 0.3);
+  background-color: rgba(79, 195, 247, 0.6);
+  border-color: rgba(79, 174, 247, 0.6);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -99,28 +99,19 @@ $header-bg-color-secondary: #2196f3 !default;
   &:hover {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(79, 195, 247, 0.4);
-    border-color: rgba(79, 174, 247, 0.4);
+    background-color: rgba(79, 195, 247, 0.5);
+    border-color: rgba(79, 174, 247, 0.5);
   }
   
   &:active {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(79, 195, 247, 0.5);
-    border-color: rgba(79, 174, 247, 0.5);
+    background-color: rgba(79, 195, 247, 0.4);
+    border-color: rgba(79, 174, 247, 0.4);
   }
 
   + .btn2 {
     margin-left: 1rem;
-  }
-
-  @include large {
-    padding: 0.75rem 1rem;
-  }
-
-  @include medium {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
   }
 
   @include small {

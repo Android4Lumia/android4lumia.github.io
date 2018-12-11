@@ -102,14 +102,14 @@ $header-bg-color-secondary: #2196f3 !default;
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     background-color: rgba(33, 131, 242, 0.8);
-    border-color: rgba(0, 119, 255, 0.8);
+    border-color: rgba(0, 119, 255, 0.6);
   }
   
   &:active {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     background-color: rgba(33, 131, 242, 0.7);
-    border-color: rgba(0, 119, 255, 0.7);
+    border-color: rgba(0, 119, 255, 0.5);
   }
 
   + .btn2 {

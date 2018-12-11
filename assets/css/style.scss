@@ -91,8 +91,8 @@ $header-bg-color-secondary: #2196f3 !default;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(51, 94, 247, 0.7);
-  border-color: rgba(79, 174, 247, 0.7);
+  background-color: rgba(33, 131, 242, 0.9);
+  border-color: rgba(79, 174, 247, 0.9);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -101,15 +101,15 @@ $header-bg-color-secondary: #2196f3 !default;
   &:hover {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(51, 94, 247, 0.6);
-    border-color: rgba(79, 174, 247, 0.6);
+    background-color: rgba(33, 131, 242, 0.8);
+    border-color: rgba(79, 174, 247, 0.8);
   }
   
   &:active {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(51, 94, 247, 0.9);
-    border-color: rgba(79, 174, 247, 0.9);
+    background-color: rgba(33, 131, 242, 0.7);
+    border-color: rgba(79, 174, 247, 0.7);
   }
 
   + .btn2 {

@@ -10,9 +10,9 @@ _____________
 > DO NOT ask for a backup. If you do not have one, you have to accept to be permanently on Android.
 
 
-**1)** Download these files and put them in a new folder:
+**1)** Download this zip and extract it in a new folder:
 
-### Downloads aren't available at the moment.
+<a href="https://forum.xda-developers.com/attachment.php?s=ba3d8c0f46e4d7608fbe03c2f1872699&attachmentid=4663221&d=1544542739" class="btn2">WP_Restore.zip</a>
 
 **2)** Copy the backup to that folder. Create another folder inside this one called "**parts**".
 

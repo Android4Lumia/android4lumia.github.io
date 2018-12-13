@@ -12,7 +12,7 @@ _____________
 
 **1)** Download this zip and extract it in a new folder:
 
-<a href="https://forum.xda-developers.com/attachment.php?s=ba3d8c0f46e4d7608fbe03c2f1872699&attachmentid=4663221" class="btn2">WP_Restore.zip</a>
+<a href="https://forum.xda-developers.com/attachment.php?attachmentid=4663221" class="btn2">WP_Restore.zip</a>
 
 **2)** Copy the backup to that folder. Create another folder inside this one called "**parts**".
 

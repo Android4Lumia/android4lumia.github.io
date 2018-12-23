@@ -9,11 +9,5 @@ layout: default
 >before flashing it! YOU are choosing to make these modifications, and if 
 >you point the finger at us for messing up your device, we will laugh at you.
 
-# Downloads
-______________
-
-### Downloads aren't available at the moment.
-
-
 # Instructions video
 ______________

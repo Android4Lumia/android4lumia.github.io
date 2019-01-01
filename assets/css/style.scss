@@ -8,30 +8,13 @@ $header-bg-color-secondary: #2196f3 !default;
 .tnb {
   position: -webkit-sticky;
   position: sticky;
+  z-index: 1;
   top: 0;
   background-color: #1b4dc1;
   padding: 7px;
   -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-}
-
-.project-tagline-fix {
-  margin-bottom: 2rem;
-  font-weight: normal;
-  color: #b3c3dd;
-
-  @include large {
-    font-size: 1.25rem;
-  }
-
-  @include medium {
-    font-size: 1.15rem;
-  }
-
-  @include small {
-    font-size: 1rem;
-  }
 }
 
 .btn {
@@ -86,7 +69,7 @@ $header-bg-color-secondary: #2196f3 !default;
 }
 
 .btnBig {
-  padding: 1rem 6rem;
+  padding: 0.8rem 6rem;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -120,26 +103,25 @@ $header-bg-color-secondary: #2196f3 !default;
   padding: 0.4rem 1rem;
   font-size: 0.9rem;
   display: inline-block;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(33, 131, 242, 0.9);
-  border-color: rgba(0, 119, 255, 0.9);
+  color: white;
+  background-color: #1181ff;
+  border-color: #1181ff;
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.3s, border-color 0.2s;
 
   &:hover {
-    color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(33, 131, 242, 0.8);
-    border-color: rgba(0, 119, 255, 0.6);
+    background-color: #3a97ff;
+    border-color: #3a97ff;
   }
   
   &:active {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(33, 131, 242, 0.7);
-    border-color: rgba(0, 119, 255, 0.5);
+    background-color: #006be5;
+    border-color: #006be5;
   }
 
   + .btn2 {
@@ -149,11 +131,51 @@ $header-bg-color-secondary: #2196f3 !default;
 
 .downloadPanel {
   background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-style: solid;
-  border-width: 6px;
-  border-radius: 0.3rem;
+  border-width: 10px;
+  border-radius: 0.7rem;
   border-color: white;
+}
+
+.telegram-button{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    right: 10px;
+    top: 13px;
+    height: 23px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #328eff;
+    border-radius: 7px;
+    padding: 3px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3s;
+    
+    &:hover {
+        background-color: #5ba5ff;
+    }
+    
+    &:active {
+        background-color: #0073ff;
+    }
+}
+
+.telegram-button i{
+    display: inline-block;
+    height: 12px;
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 2px;   
+    background: url('https://telegram.org/img/oauth/tg_button_medium.png') no-repeat;
+    background-size: contain;
 }
 
 .pure-material-button-contained { /*Material design buttons by Ben Szabo (https://codepen.io/finnhvman/) - Modified by TBM_13 */
@@ -171,6 +193,7 @@ $header-bg-color-secondary: #2196f3 !default;
     text-transform: uppercase;
     color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
     background-color: rgba(0, 0, 0, 0);
+    color: white;
     font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
     font-size: 14px;
     font-weight: 500;
@@ -259,6 +282,108 @@ $header-bg-color-secondary: #2196f3 !default;
     opacity: 0;
 }
 
+//Material Text Button
+.pure-material-button-text {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    padding: 0 8px;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    color: #2196f3;
+    background-color: transparent;
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+  
+    &:hover {
+   text-decoration: none; 
+  }
+  
+  &:active {
+   text-decoration: none; 
+  }
+}
+
+.pure-material-button-text::-moz-focus-inner {
+    border: none;
+}
+
+/* Overlay */
+.pure-material-button-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: currentColor;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+/* Ripple */
+.pure-material-button-text::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    padding: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: currentColor;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1) ;
+    transition: opacity 1s, transform 0.5s;
+}
+
+/* Hover, Focus */
+.pure-material-button-text:hover::before {
+    opacity: 0.04;
+}
+
+.pure-material-button-text:focus::before {
+    opacity: 0.12;
+}
+
+.pure-material-button-text:hover:focus::before {
+    opacity: 0.16;
+}
+
+/* Active */
+.pure-material-button-text:active::after {
+    opacity: 0.16;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0s;
+}
+
+/* Disabled */
+.pure-material-button-text:disabled {
+    color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
+    background-color: transparent;
+    cursor: initial;
+}
+
+.pure-material-button-text:disabled::before {
+    opacity: 0;
+}
+
+.pure-material-button-text:disabled::after {
+    opacity: 0;
+}
+
+//End Material Text Button
 .video-container {
 position: relative;
 padding-bottom: 56.25%;

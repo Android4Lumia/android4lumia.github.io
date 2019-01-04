@@ -12,8 +12,27 @@
       </script>
     {% endif %}
     <meta charset="UTF-8">
-    
     <title>Android4Lumia</title> 
+    <script>
+      var bStatus = false;
+
+      function bMenuToggle() {
+        var bMenu = document.getElementById("bPanel");
+        var content = document.getElementById("content");
+        var pageheader = document.getElementById("pageheader");
+        document.getElementById("bBtn").classList.toggle("change");
+        if(!bStatus) {
+          bMenu.className += " opened";
+          content.setAttribute("onclick", "bMenuToggle()");
+          pageheader.setAttribute("onclick", "bMenuToggle()");
+        } else {
+          bMenu.className = "panel-wrap";
+          content.removeAttribute("onclick");
+          pageheader.removeAttribute("onclick");
+        }
+        bStatus = !bStatus;
+      }
+    </script>
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -22,13 +41,22 @@
   </head>
   <body>
     <header class="tnb">
-      <button class="pure-material-button-contained" onclick="window.location.href='./wp.html';">Restore Windows Phone</button>
-      <button class="pure-material-button-contained" onclick="window.location.href='./faq.html';">FAQ</button>
+      <div class="bButtonContainer" id="bBtn" onclick="bMenuToggle()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="panel-wrap" id="bPanel">
+        <div class="panel">
+          <button class="pure-material-button-contained bMenu noTA" onclick="window.location.href='./wp.html';">Restore Windows Phone</button>
+          <button class="pure-material-button-contained bMenu" onclick="window.location.href='./faq.html';">FAQ</button>
+        </div>
+      </div>
       <a class="telegram-button" href="https://t.me/android4lumia" target="_blank"><i></i></a>
     </header>
     
     
-    <header class="page-header" role="banner">
+    <header class="page-header" role="banner" id="pageheader">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <a href="./downloads.html" class="btnBig">Downloads</a><br />

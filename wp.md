@@ -12,7 +12,7 @@ _____________
 
 **1)** Download this zip and extract it in a new folder:
 
-<a href="./files/WP_Restore.zip" class="btn2">WP_Restore.zip</a>
+<a href="https://github.com/Android4Lumia/android4lumia.github.io/raw/master/files/WP_Restore.zip" class="btn2">WP_Restore.zip</a>
 
 **2)** Copy the backup to that folder. Create another folder inside this one called "**parts**".
 

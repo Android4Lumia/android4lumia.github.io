@@ -5,43 +5,35 @@ layout: other
 # **FAQ**
 ___________________________________________
 
-### What is Android4Lumia?
+### What is the Android4Lumia project about?
 
-Android4Lumia is a project to install Android on Lumia devices.
+Android4Lumia is a project that lets users install Android-based custom ROMs on their Lumia phones.
 
-### How is this possible?
+### How is this even possible?
 
-Flashing a modified LittleKernel Bootloader.
+It is possible by flashing a modified LittleKernel Bootloader.
 
 ### Are all Lumia devices supported?
 
-**No**. For now, only Lumia 520, 521, 525, 526, 720, 720T devices are supported. Support is planned for other Snapdragon S4 based Lumias,
-but nothing is promised.
+**No**. As of right now, only Lumia 520, 521, 525, 526, 720 and 720T devices are supported.
+There are plans to support other Qualcomm Snapdragon S4-based Lumias as well, though we cannot certainly promise anything.
 
-### Can i do this on my main phone/is this stable?
+### Are third-party touchscreens supported?
 
-**Don't** do this in your main phone, this isn't 100% stable and all things aren't working (like cellular networks, camera, some SD cards, etc).
+**No**, only original touchscreens are supported.
 
-### Are non-original touchscreens supported?
+### Can I install GApps (Google Apps)?
 
-**No**. Only original touchscreens are supported. It isn't easy to calibrate and support other touchscreens.
+Yes, you can, but keep in mind that installing GApps will make your device run very slow.
 
-### In TWRP my touchscreen doesn't works, it vibrates.
+### Are these ROMs stable enough to use on my daily driver phone?
 
-That means you don't have an original touchscreen. Go back to Windows Phone.
+**Do not** install this software on your daily devices, because it is not 100% stable at the moment. Perhaps, depending on the device, there are some important things that do not work such as cellular connectivity, cameras, etc.
 
-### Are WiFi and Bluetooth working?
+### I want to go back to Windows Phone but I have not made a backup.
 
-Yes. WiFi and Bluetooth are working.
+If you have not made a backup, you cannot go back to Windows Phone because every device is unique.
 
-### Can i install Google Play Services and Play Store?
+### My phone got damaged!
 
-Yes, you can. But if you do that, the phone will run very slow. We don't recommend you to do this.
-
-### I want to go back to Windows Phone but i don't made a backup
-
-If you don't made a backup, you can't go back to Windows Phone. Every device backup is unique, so don't ask others for one.
-
-### You damaged my phone!
-
-We warned you! **YOU** choosed to make these modifications, so don't point the finger at us for messing up your device.
+We warned you before! **YOU** have chosen to make these modifications on your own, so do not point the finger at us for messing your phones up.

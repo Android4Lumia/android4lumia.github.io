@@ -22,13 +22,17 @@ There are plans to support other Qualcomm Snapdragon S4-based Lumias as well, th
 
 **No**, only original touchscreens are supported.
 
+### What things aren't working?
+
+No signal SIM Card, camera and rotation.
+
 ### Can I install GApps (Google Apps)?
 
 Yes, you can, but keep in mind that installing GApps will make your device run very slow.
 
 ### Are these ROMs stable enough to use on my daily driver phone?
 
-**Do not** install this software on your daily devices, because it is not 100% stable at the moment. Perhaps, depending on the device, there are some important things that do not work such as cellular connectivity, cameras, etc.
+**Do not** install this software on your daily devices, because it is not 100% stable at the moment. Perhaps, depending on the device, there is a lot of lag and there are some important things that do not work.
 
 ### I want to go back to Windows Phone but I have not made a backup.
 

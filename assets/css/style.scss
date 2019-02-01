@@ -179,15 +179,14 @@ $header-bg-color-secondary: #2196f3 !default;
     z-index: 1;
     top: 50px;
     bottom: 0;
-    left: 0;
+    left: -216px;
     width: 216px;
     height: 72px;
-    transform: translateX(-100%);
     transition: .3s ease-out;
     
     &.opened {
       box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.1), 0 12px 20px 0 rgba(0, 0, 0, 0.1);
-      transform: translateX(0%);
+      left: 0;
     }
   }
   

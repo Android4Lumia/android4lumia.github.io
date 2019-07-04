@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+
+  <script lang="text/javascript" src="/assets/js/dl.js"></script>
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  {% endif %}
+  <meta charset="UTF-8">
+
+  <title>Android4Lumia</title>
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+
+<body>
+  <header class="tnb">
+    <button class="pure-material-button-contained" onclick="window.location.href='.';">Back</button>
+    <a class="telegram-button" href="https://t.me/android4lumia" target="_blank"><i></i></a>
+  </header>
+
+  <div id="template_grouped" style="display:none;">
+    <foreach dljs_group="device">
+
+      <h2>
+        <echo dljs_index=0 dljs_property="device"></echo>
+      </h2>
+      <hr>
+      <foreach dljs_group="name">
+        <div class="downloadPanel">
+          <details>
+            <summary>
+              <b>
+                <echo dljs_index=0 dljs_property="name"></echo>
+              </b>
+            </summary>
+            <foreach dljs_group="date">
+              <p></p>
+              <div class="downloadPanel">
+                <a href="https://github.com/Android4Lumia/android4lumia.github.io/raw/master/files/builds/los13/lineage-13.0-20190101-UNOFFICIAL-fame.zip"
+                  class="pure-material-button-text" style="float: right;">Download</a>
+                <b>
+                  <h3>Build <echo dljs_index=0 dljs_property="date"></echo>
+                  </h3>
+                </b>
+                <sub>Size: 272 MB</sub><br />
+                <sub>Upload date: 1/1/2019</sub><br />
+              </div>
+            </foreach>
+          </details>
+        </div>
+        <p></p>
+      </foreach>
+
+    </foreach>
+  </div>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+
+  </main>
+</body>
+
+</html>

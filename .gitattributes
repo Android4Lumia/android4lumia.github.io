@@ -1,2 +1,1 @@
-*.zip filter=lfs diff=lfs merge=lfs -text
-files/builds/los13/ filter=lfs diff=lfs merge=lfs -text
+

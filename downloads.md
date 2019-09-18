@@ -48,6 +48,13 @@ ________________
 </div>
 <p></p>
 <div class="downloadPanel">
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr4JYd-4nWK-F6S2gwQ?e=BpH4b0" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 13 for Lumia 620 (sand)</h3></b>
+  <sub>Size: 275 MB</sub><br />
+  <sub>Upload date: 12/8/2019</sub><br />
+</div>
+<p></p>
+<div class="downloadPanel">
   <a href="https://1drv.ms/u/s!AinATQw6gXQWr5koltjRV5LkE85UBg?e=xSdbGJ" class="pure-material-button-text" style="float: right;">Download</a>
   <b><h3>LineageOS 13 for Lumia 720/T (zeal)</h3></b>
   <sub>Size: 272 MB</sub><br />

@@ -2,23 +2,9 @@
 layout: other
 ---
 
-## ROMS
+## LineageOS 14.1 ROMs
 ________________
 
-<div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kqUXcc8KMRuFC_Pg?e=qYbjRw" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>LineageOS 13 for Lumia 520/1 (fame)</h3></b>
-  <sub>Size: 272 MB</sub><br />
-  <sub>Upload date: 1/1/2019</sub><br />
-</div>
-<p></p>
-<div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5knjkP0n_AhLRfk0Q?e=gsqR3o" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>LineageOS 13 for Lumia 520/1 (fame)</h3></b>
-  <sub>Size: 273 MB</sub><br />
-  <sub>Upload date: 1/7/2019</sub><br />
-</div>
-<p></p>
 <div class="downloadPanel">
   <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kjScwE61peiT2jJw?e=3rQ0vH" class="pure-material-button-text" style="float: right;">Download</a>
   <b><h3>LineageOS 14.1 for Lumia 520/1 (fame)</h3></b>
@@ -27,8 +13,33 @@ ________________
 </div>
 <p></p>
 <div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kpfY-Lc_vwUNr7sw?e=mPUMaJ" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>LineageOS 13 for Lumia 525/6 (glee)</h3></b>
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kksPhcn4hDvZic4w?e=qgCVyr" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 14.1 for Lumia 525/6 (glee)</h3></b>
+  <sub>Size: 288 MB</sub><br />
+  <sub>Upload date: 1/7/2019</sub><br />
+</div>
+<p></p>
+<div class="downloadPanel">
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kixbShj99mYDdnbA?e=Eg1ZGo" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 14.1 for Lumia 720/T (zeal)</h3></b>
+  <sub>Size: 288 MB</sub><br />
+  <sub>Upload date: 1/7/2019</sub><br />
+</div>
+<p></p>
+
+## LineageOS 13.0 ROMs
+________________
+
+<div class="downloadPanel">
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5knjkP0n_AhLRfk0Q?e=gsqR3o" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 13 for Lumia 520/1 (fame)</h3></b>
+  <sub>Size: 273 MB</sub><br />
+  <sub>Upload date: 1/7/2019</sub><br />
+</div>
+<p></p>
+<div class="downloadPanel">
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kqUXcc8KMRuFC_Pg?e=qYbjRw" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 13 for Lumia 520/1 (fame)</h3></b>
   <sub>Size: 272 MB</sub><br />
   <sub>Upload date: 1/1/2019</sub><br />
 </div>
@@ -41,10 +52,10 @@ ________________
 </div>
 <p></p>
 <div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kksPhcn4hDvZic4w?e=qgCVyr" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>LineageOS 14.1 for Lumia 525/6 (glee)</h3></b>
-  <sub>Size: 288 MB</sub><br />
-  <sub>Upload date: 1/7/2019</sub><br />
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kpfY-Lc_vwUNr7sw?e=mPUMaJ" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 13 for Lumia 525/6 (glee)</h3></b>
+  <sub>Size: 272 MB</sub><br />
+  <sub>Upload date: 1/1/2019</sub><br />
 </div>
 <p></p>
 <div class="downloadPanel">
@@ -55,13 +66,6 @@ ________________
 </div>
 <p></p>
 <div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5koltjRV5LkE85UBg?e=xSdbGJ" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>LineageOS 13 for Lumia 720/T (zeal)</h3></b>
-  <sub>Size: 272 MB</sub><br />
-  <sub>Upload date: 1/1/2019</sub><br />
-</div>
-<p></p>
-<div class="downloadPanel">
   <a href="https://1drv.ms/u/s!AinATQw6gXQWr5klrHFMJAyrA7wQ0A?e=bf5yRR" class="pure-material-button-text" style="float: right;">Download</a>
   <b><h3>LineageOS 13 for Lumia 720/T (zeal)</h3></b>
   <sub>Size: 273 MB</sub><br />
@@ -69,10 +73,10 @@ ________________
 </div>
 <p></p>
 <div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5kixbShj99mYDdnbA?e=Eg1ZGo" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>LineageOS 14.1 for Lumia 720/T (zeal)</h3></b>
-  <sub>Size: 288 MB</sub><br />
-  <sub>Upload date: 1/7/2019</sub><br />
+  <a href="https://1drv.ms/u/s!AinATQw6gXQWr5koltjRV5LkE85UBg?e=xSdbGJ" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 13 for Lumia 720/T (zeal)</h3></b>
+  <sub>Size: 272 MB</sub><br />
+  <sub>Upload date: 1/1/2019</sub><br />
 </div>
 <p></p>
 

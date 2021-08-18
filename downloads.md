@@ -6,8 +6,8 @@ layout: other
 ________________
 
 <div class="downloadPanel">
-  <a href="" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>No longer available - LineageOS 14.1 for Lumia 520/1 (fame)</h3></b>
+  <a href="https://1drv.ms/u/s!Atz2q1RD1cGLgZo8z10OWwOE3guJRg?e=iZqvZr" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 14.1 for Lumia 520/1 (fame)</h3></b>
   <sub>Size: 288 MB</sub><br />
   <sub>Upload date: 1/7/2019</sub><br />
 </div>

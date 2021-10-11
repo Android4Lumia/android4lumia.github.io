@@ -6,24 +6,24 @@ layout: other
 ________________
 
 <div class="downloadPanel">
-  <a href="https://1drv.ms/u/s!Atz2q1RD1cGLgZo8z10OWwOE3guJRg?e=iZqvZr" class="pure-material-button-text" style="float: right;">Download</a>
+  <a href="https://drive.google.com/file/d/1IYCFu7FlEKhG8XaAHJylwzAUPbUoVwlQ/view?usp=sharing" class="pure-material-button-text" style="float: right;">Download</a>
   <b><h3>LineageOS 14.1 for Lumia 520/1 (fame)</h3></b>
-  <sub>Size: 288 MB</sub><br />
-  <sub>Upload date: 1/7/2019</sub><br />
+  <sub>Size: 299 MB</sub><br />
+  <sub>Upload date: 11/10/2021</sub><br />
 </div>
 <p></p>
 <div class="downloadPanel">
-  <a href="" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>No longer available - LineageOS 14.1 for Lumia 525/6 (glee)</h3></b>
-  <sub>Size: 288 MB</sub><br />
-  <sub>Upload date: 1/7/2019</sub><br />
+  <a href="https://drive.google.com/file/d/1s6ZkEr0PGECwuxuZNJpB-9P-h3upURE3/view?usp=sharing" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 14.1 for Lumia 525/6 (glee)</h3></b>
+  <sub>Size: 299 MB</sub><br />
+  <sub>Upload date: 11/10/2021</sub><br />
 </div>
 <p></p>
 <div class="downloadPanel">
-  <a href="" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>No longer available - LineageOS 14.1 for Lumia 720/T (zeal)</h3></b>
-  <sub>Size: 288 MB</sub><br />
-  <sub>Upload date: 1/7/2019</sub><br />
+  <a href="https://drive.google.com/file/d/1PILATw7NGhhTC65vglP6AlU7UhgGwHa-/view?usp=sharing" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 14.1 for Lumia 720/T (zeal)</h3></b>
+  <sub>Size: 299 MB</sub><br />
+  <sub>Upload date: 11/10/2021</sub><br />
 </div>
 <p></p>
 

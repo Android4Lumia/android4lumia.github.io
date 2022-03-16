@@ -31,6 +31,13 @@ ________________
 ________________
 
 <div class="downloadPanel">
+  <a href="https://drive.google.com/file/d/1VxmvLYoKb_LFBhVIB7LOR6bfb7pmig6S/view" class="pure-material-button-text" style="float: right;">Download</a>
+  <b><h3>LineageOS 13 for Lumia 620 (sand)</h3></b>
+  <sub>Size: 285 MB</sub><br />
+  <sub>Upload date: 16/03/2022</sub><br />
+</div>
+<p></p>
+<div class="downloadPanel">
   <a href="" class="pure-material-button-text" style="float: right;">Download</a>
   <b><h3>No longer available - LineageOS 13 for Lumia 520/1 (fame)</h3></b>
   <sub>Size: 273 MB</sub><br />
@@ -56,13 +63,6 @@ ________________
   <b><h3>No longer available - LineageOS 13 for Lumia 525/6 (glee)</h3></b>
   <sub>Size: 272 MB</sub><br />
   <sub>Upload date: 1/1/2019</sub><br />
-</div>
-<p></p>
-<div class="downloadPanel">
-  <a href="" class="pure-material-button-text" style="float: right;">Download</a>
-  <b><h3>No longer available - LineageOS 13 for Lumia 620 (sand)</h3></b>
-  <sub>Size: 275 MB</sub><br />
-  <sub>Upload date: 12/8/2019</sub><br />
 </div>
 <p></p>
 <div class="downloadPanel">
